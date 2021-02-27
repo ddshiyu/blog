@@ -1,7 +1,7 @@
 ---
 title: Hello World
 tag:
-- 方
+- hexo
 categories:
 - 技术
 index_img: https://s3.ax1x.com/2021/02/27/6S1G6O.jpg
@@ -39,16 +39,6 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 ``` bash
 $ hexo deploy
 ```
-你好啊朋友
-
-fasfdasfasd放大哈看凤凰大厦靠近阿富汗看fsdfdsaf
-
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-fhakfdjhksafhks你好哈佛的撒范德萨肌肤
-
-
-heheheheh
-噩耗客户认可为回家啊好看
-你好啊朋友
 
