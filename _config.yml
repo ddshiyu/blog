@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 锦瑟少年青衫梦
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: kindle
 language: zh-CN
 timezone: ''
 
@@ -93,6 +93,9 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+aplayer:
+  meting: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

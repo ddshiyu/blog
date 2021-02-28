@@ -41,4 +41,6 @@ $ hexo deploy
 ```
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-
+## 参考
+[^1]: 参考资料1
+[^2]: 参考资料2
