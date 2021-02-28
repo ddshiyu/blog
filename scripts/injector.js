@@ -13,6 +13,9 @@ hexo.extend.injector.register(
 
 hexo.extend.injector.register(
   "body_end",
-  `<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.3/love.js"></script>`,
+  `<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.3/love.js"></script>
+  <script type="text/javascript"
+color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>`,
   "default"
 )

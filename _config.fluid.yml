@@ -131,12 +131,13 @@ color:
   body_bg_color: "#eee"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  body_bg_color_dark: "#181c27"
-
+  # body_bg_color_dark: "#181c27"
+  body_bg_color_dark: "#12121C"
   # 顶部菜单背景色
   # Color of navigation bar background
   navbar_bg_color: "#2f4154"
-  navbar_bg_color_dark: "#1f3144"
+  # navbar_bg_color_dark: "#1f3144"
+  navbar_bg_color_dark: "#000000"
 
   # 顶部菜单字体色
   # Color of navigation bar text
@@ -181,8 +182,8 @@ color:
   # 主面板背景色
   # Color of main board
   board_color: "#fff"
-  board_color_dark: "#252d38"
-
+  # board_color_dark: "#252d38"
+  board_color_dark: "#282C34"
 # 主题字体配置
 # Font
 font:
@@ -196,7 +197,7 @@ custom_js:
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css:
+custom_css: /css/mycss.css
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
@@ -537,7 +538,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 描述文字
     # Descriptive text before date
@@ -874,7 +875,7 @@ links:
       title: "Fluid Docs",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
+      avatar: "https://s3.ax1x.com/2021/02/27/6pJUXV.png"
     }
     - {
       title: "Fluid Repo",
@@ -891,7 +892,7 @@ links:
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
-  onerror_avatar: /img/avatar.png
+  onerror_avatar: /zred/img/avatar.png
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
@@ -902,11 +903,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    type: disqus
+    type: valine
 
 
 #---------------------------
