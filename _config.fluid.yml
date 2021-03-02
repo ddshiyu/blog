@@ -309,6 +309,9 @@ navbar:
       }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "宝藏", icon: "iconfont icon-link-fill", submenu: [
+        { key: '导航', link: 'https://jdqiong.cn/' },
+    ] }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -754,7 +757,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://s3.ax1x.com/2021/02/27/6S1JXD.jpg
+  banner_img: https://s3.ax1x.com/2021/03/02/6FdbeH.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -766,7 +769,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/27/6S1G6O.jpg
+  banner_img: https://s3.ax1x.com/2021/03/02/6FdoQO.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
