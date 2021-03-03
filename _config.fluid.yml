@@ -414,7 +414,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://s3.ax1x.com/2021/02/27/6S1gBQ.jpg
+  banner_img: https://s3.ax1x.com/2021/03/03/6AAim4.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -757,7 +757,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://s3.ax1x.com/2021/03/02/6FdbeH.jpg
+  banner_img: https://s3.ax1x.com/2021/03/03/6AAn1K.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -769,7 +769,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/03/02/6FdoQO.jpg
+  banner_img: https://s3.ax1x.com/2021/03/03/6AAl0H.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -794,7 +794,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/27/6S13p6.jpg
+  banner_img: https://s3.ax1x.com/2021/03/03/6AEta9.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
