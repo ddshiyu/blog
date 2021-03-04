@@ -18,7 +18,7 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/avatar.png
+favicon: /img/favicon.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
@@ -131,13 +131,12 @@ color:
   body_bg_color: "#eee"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  # body_bg_color_dark: "#181c27"
-  body_bg_color_dark: "#12121C"
+  body_bg_color_dark: "#181c27"
+
   # 顶部菜单背景色
   # Color of navigation bar background
   navbar_bg_color: "#2f4154"
-  # navbar_bg_color_dark: "#1f3144"
-  navbar_bg_color_dark: "#000000"
+  navbar_bg_color_dark: "#1f3144"
 
   # 顶部菜单字体色
   # Color of navigation bar text
@@ -182,8 +181,8 @@ color:
   # 主面板背景色
   # Color of main board
   board_color: "#fff"
-  # board_color_dark: "#252d38"
-  board_color_dark: "#282C34"
+  board_color_dark: "#252d38"
+
 # 主题字体配置
 # Font
 font:
@@ -279,7 +278,7 @@ version:
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: "灰太狼"
+  blog_title: "Fluid"
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -302,16 +301,8 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "清单", icon: "iconfont icon-images", submenu: [
-          { key: '相册', link: '/photos' },
-          { key: '音乐', link: '/music' },
-        ]
-      }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-    - { key: "宝藏", icon: "iconfont icon-link-fill", submenu: [
-        { key: '导航', link: 'https://jdqiong.cn/' },
-    ] }
+    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -381,7 +372,7 @@ footer:
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
   statistics:
-    enable: true
+    enable: false
 
     # 统计数据来源，如果使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；如果使用 busuanzi 可能会有请求失败的情况
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
@@ -414,7 +405,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-z8mq8y%20(1).jpg
+  banner_img: /img/default.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -433,7 +424,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "欢迎"
+    text: "An elegant Material-Design theme for Hexo"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -486,7 +477,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://s3.ax1x.com/2021/02/27/6SlVZd.jpg
+  banner_img: /img/default.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -500,7 +491,7 @@ post:
     # 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值
     # Author, based on `author` field in front-matter, if not set, based on `author` value in hexo config
     author:
-      enable: true
+      enable: false
 
     # 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期
     # Post date, based on `date` field in front-matter, if not set, based on create date of .md file
@@ -531,7 +522,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: true
+      enable: false
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
@@ -541,7 +532,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: true
+    enable: false
 
     # 描述文字
     # Descriptive text before date
@@ -623,11 +614,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: false
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    type: valine
+    type: disqus
 
 
 #---------------------------
@@ -689,8 +680,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/configuration.html
 valine:
-  appid: xaGXSjewuzULHEOanpcFJNMA-gzGzoHsz
-  appkey: IIMQuME3Ie8ryBzFObAabjs8
+  appid:
+  appkey:
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
@@ -757,7 +748,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-6qzgdw%20(1).jpg
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -769,7 +760,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-g78rle%20(1).jpg
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -794,7 +785,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-md86dy%20(1).jpg
+  banner_img: /img/default.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -812,18 +803,19 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/27/6S181K.jpg
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
   avatar: /img/avatar.png
-  name: "灰太狼"
+  name: "Fluid"
   introduce: "An elegant theme for Hexo"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com/ddshiyu", tip: "GitHub" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "https://s3.ax1x.com/2021/02/27/6pGfij.jpg" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
+    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
 
 
 #---------------------------
@@ -839,10 +831,6 @@ page:
   banner_mask_alpha: 0.3
 
 
-photo:
-  enable: true
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
 #---------------------------
 # 404页
 # 404 Page
@@ -861,7 +849,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/28/692qZF.jpg
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -878,7 +866,7 @@ links:
       title: "Fluid Docs",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "https://s3.ax1x.com/2021/02/27/6pJUXV.png"
+      avatar: "/img/favicon.png"
     }
     - {
       title: "Fluid Repo",
@@ -886,31 +874,25 @@ links:
       link: "https://github.com/fluid-dev/hexo-theme-fluid",
       avatar: "/img/favicon.png"
     }
-    - {
-      title: "aigisss",
-      intro: "爱即是诗的博客",
-      link: "https://www.aigisss.com/blog/",
-      avatar: "/img/favicon.png"
-    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
-  onerror_avatar: /zred/img/avatar.png
+  onerror_avatar: /img/avatar.png
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: true
+    enable: false
     content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
 
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: false
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    type: valine
+    type: disqus
 
 
 #---------------------------
