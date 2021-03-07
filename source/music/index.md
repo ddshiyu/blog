@@ -1,7 +1,8 @@
 ---
 title: 音乐
 date: 2021-02-27 19:50:32
-banner_img: https://s3.ax1x.com/2021/02/27/6pEWex.jpg
+banner_img: https://s3.ax1x.com/2021/03/07/6MuUDe.jpg
+banner_img_height: 80
 comment: true
 ---
 <div class='cnode'>

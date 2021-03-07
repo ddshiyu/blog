@@ -57,11 +57,11 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      style: "An Old Hope"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+      bg_color: true
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -83,7 +83,7 @@ fun_features:
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
-    typeSpeed: 70
+    typeSpeed: 200
 
     # 游标字符
     # Cursor character
@@ -102,7 +102,7 @@ fun_features:
     # Options: hover | always | touch
     visible: hover
     # Option：§ | # | ❡
-    icon: ""
+    icon: "§"
 
   # 加载进度条
   # Progress bar when loading
@@ -128,14 +128,14 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#eee"
+  body_bg_color: "#f1f2f9"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
   # body_bg_color_dark: "#181c27"
   body_bg_color_dark: "#12121C"
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
+  navbar_bg_color: "#000"
   # navbar_bg_color_dark: "#1f3144"
   navbar_bg_color_dark: "#000000"
 
@@ -156,7 +156,7 @@ color:
 
   # 文章正文字体色
   # Color of post text
-  post_text_color: "#2c3e50"
+  post_text_color: "#666"
   post_text_color_dark: "#c4c6c9"
 
   # 文章正文字体色（h1 h2 h3...）
@@ -181,14 +181,14 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: "#fff"
+  board_color: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-white.png) top fixed;"
   # board_color_dark: "#252d38"
-  board_color_dark: "#282C34"
+  board_color_dark: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-black.png) top fixed;"
 # 主题字体配置
 # Font
 font:
   font_size: 16px
-  font_family:
+  font_family: Microsoft YaHei, PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, 微软雅黑, STHeitiSC-Light, simsun, 宋体, WenQuanYi Zen Hei, WenQuanYi Micro Hei, sans-serif
   code_font_size: 85%
 
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
@@ -210,12 +210,12 @@ custom_html: ''
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
-  enable: false
+  enable: true
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
   # See: https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376
-  baidu:
+  baidu: f973be63e2c23105be337c77a8959917
 
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
@@ -309,7 +309,7 @@ navbar:
       }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-    - { key: "宝藏", icon: "iconfont icon-link-fill", submenu: [
+    - { key: "宝藏", icon: "iconfont th-large icon-th-large", submenu: [
         { key: '导航', link: 'https://jdqiong.cn/' },
     ] }
 
@@ -486,7 +486,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://s3.ax1x.com/2021/02/27/6SlVZd.jpg
+  banner_img: https://s3.ax1x.com/2021/03/07/6MZ70s.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -794,7 +794,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-md86dy%20(1).jpg
+  banner_img: https://s3.ax1x.com/2021/03/07/6MZ56g.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -812,7 +812,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/27/6S181K.jpg
+  banner_img: https://s3.ax1x.com/2021/03/07/6MZIXQ.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
@@ -861,8 +861,8 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://s3.ax1x.com/2021/02/28/692qZF.jpg
-  banner_img_height: 60
+  banner_img: https://s3.ax1x.com/2021/03/07/6MuaHH.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
   # 友链的成员项

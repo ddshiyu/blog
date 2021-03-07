@@ -16,7 +16,7 @@ var orderBy = theme.category.order_by || 'name'
     <% var collapsed = subCats.length === 0 || depth >= theme.category.collapse_depth %>
     <div class="<%= depth <= 0 ? 'category' : 'category-sub' %> row">
       <a
-        class="<%= depth <= 0 ? 'category-item' : 'category-subitem' %> <%= collapsed ? 'collapsed' : '' %> list-group-item category-item-action col-10 col-md-11"
+        class="<%= depth <= 0 ? 'category-item' : 'category-subitem' %> <%= collapsed ? 'collapsed' : '' %> list-group-item category-item-action col-10 col-md-11 "
         id="heading-<%= cat._id %>" role="tab" data-toggle="collapse" href="#collapse-<%= cat._id %>"
         aria-expanded="<%= collapsed ? 'false' : 'true' %>"
       >

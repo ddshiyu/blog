@@ -12,7 +12,7 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.page.banner_mask_alpha
 
   <% if(page.comments) { %>
     <!-- Comments -->
-    <article class="comments" id="comments">
+    <article class="comments wow fadeInUp" id="comments" data-wow-duration="2s">
       <% var type %>
       <% if (typeof page.comment === 'string' && page.comment !== '') { %>
         <% type = '_partial/comments/' + page.comment %>
