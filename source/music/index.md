@@ -1,7 +1,7 @@
 ---
 title: 音乐
 date: 2021-02-27 19:50:32
-banner_img: https://s3.ax1x.com/2021/03/07/6MuUDe.jpg
+banner_img: https://img.imgdb.cn/item/6044dcfacef1ec5e6fe28dc3.jpg
 banner_img_height: 80
 comment: true
 ---
@@ -13,3 +13,4 @@ comment: true
   {% meting "5423021370" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
 </div>
 
+{% meting "7922116989" "tencent" "playlist" %}

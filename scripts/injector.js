@@ -16,21 +16,21 @@ hexo.extend.injector.register(
   `<script defer type="text/javascript" src="https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.3/love.js"></script>
   <script defer type="text/javascript"
 color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-</script>
-<script>
+</script>`,
+  "default"
+)
+hexo.extend.injector.register(
+  "body_end",
+  `<script src="https://cdn.dowebok.com/131/js/wow.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.dowebok.com/98/css/animate.min.css"></link>
+  <script>
 var wow = new WOW({
   boxClass: 'wow',
   animateClass: 'animated',
-  offset: 0,
+  offset: 100,
   mobile: true,
   live: true
 });
 wow.init();</script>`,
-  "default"
-)
-hexo.extend.injector.register(
-  "head_begin",
-  `<script src="https://cdn.dowebok.com/131/js/wow.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.dowebok.com/98/css/animate.min.css"></link>`,
   "default"
 )
