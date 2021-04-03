@@ -181,9 +181,9 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-white.png) top fixed;"
+  board_color: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-white.png) top;"
   # board_color_dark: "#252d38"
-  board_color_dark: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-black.png) top fixed;"
+  board_color_dark: "url(https://nekodeng.gitee.io/medias/banner/flowerbg-black.png) top;"
 # 主题字体配置
 # Font
 font:
@@ -305,6 +305,7 @@ navbar:
     - { key: "清单", icon: "iconfont icon-images", submenu: [
           { key: '相册', link: '/photos' },
           { key: '音乐', link: '/music' },
+          { key: '心情', link: '/tags/心情/' },
         ]
       }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -818,7 +819,7 @@ about:
   subtitle:  # 打字机内容
   avatar: /img/avatar.png
   name: "JianDong"
-  introduce: "An elegant theme for Hexo"
+  introduce: "终有一天，我的天才定会得到理解"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:

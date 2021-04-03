@@ -10,7 +10,28 @@ comment: true
     <div class='tag'>文艺复兴</div>
     <p>很长时间了，总是想写点什么，无关风月，就是想写点什么。无论是记录知识点，总结技能树，人生长谈，风花雪月之事，都可以有一个存档的地方，对于复盘，回忆，都是一个极好的方谭。</p>
   </div>
-  {% meting "5423021370" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
+  {% meting "6658944038" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
 </div>
 
-{% meting "7922116989" "tencent" "playlist" %}
+<div class='cnode'>
+  <div class='content'>
+    <div class='tag'>文艺复兴</div>
+    <p>在10多年前，开着一辆摩托车，一个车载音箱，放着这些 ‘凤舞九天’、‘非主流xxx’的舞曲，你就是整条街上最靓的仔。不知不觉已经消失好多年了！</p>
+  </div>
+  {% meting "6652995943" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
+</div>
+<div class='cnode'>
+  <div class='content'>
+    <div class='tag'>文艺复兴</div>
+    <p>吉他真是一个神奇的木头盒子啊！</p>
+  </div>
+  {% meting "7922116989" "tencent" "playlist" %}
+</div>
+<div class='cnode'>
+  <div class='content'>
+    <div class='tag'>文艺复兴</div>
+    <p>Accuracy is the difference between slaughter and surgery.</p>
+  </div>
+  {% meting "6652972946" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
+</div>
+
