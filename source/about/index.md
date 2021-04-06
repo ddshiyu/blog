@@ -32,7 +32,7 @@ comment: true
   </div>
 </div>
 
-### 📱 语录
+<!-- ### 📱 语录
 <div class='cnode'>
   <div class='content'>
     <div class='tag'>quotations</div>
@@ -44,4 +44,4 @@ comment: true
     <p class='dialogue'><span class='avatar'><img src='https://img.imgdb.cn/item/604c89d95aedab222c51a85c.jpg' /></span><span class='quot'>只有蠢货才会犹豫不决。</span></p>
     <p class='dialogue'><span class='avatar'><img src='https://img.imgdb.cn/item/604c8d995aedab222c53497d.jpg' /></span><span class='quot'>鸿鹄之志，不在林间。</span></p>
   </div>
-</div>
+</div> -->

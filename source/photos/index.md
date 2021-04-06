@@ -3,7 +3,7 @@ title: photos
 date: 2021-02-27 10:20:54
 layout: photo
 subtitle: 相册
-banner_img: https://s3.ax1x.com/2021/02/27/6pE3FS.jpg
+banner_img: https://img.imgdb.cn/item/606c2f3e8322e6675cadfb0c.jpg
 comment: true
 ---
 

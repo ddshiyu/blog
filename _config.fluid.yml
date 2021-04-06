@@ -57,7 +57,7 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "An Old Hope"
+      style: "Arduino Light"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
@@ -120,7 +120,7 @@ dark_mode:
   # 默认的选项（当用户手动切换后则不再按照默认模式），选择 `auto` 会优先遵循 prefers-color-scheme，其次按用户本地时间 18 点到次日 6 点之间进入暗色模式
   # Default option (when the visitor switches manually, the default mode is no longer followed), choosing `auto` will give priority to prefers-color-scheme, and then enter the dark mode from 18:00 to 6:00 in the visitor’s local time
   # Options: auto | light | dark
-  default: auto
+  default: light
 
 # 主题颜色配置，其他不生效的地方请使用自定义 css 解决，配色可以在下方链接中获得启发
 # Theme color, please use custom CSS to solve other colors, color schema can be inspired by the links below
@@ -146,7 +146,7 @@ color:
 
   # 全局字体色
   # Color of global text
-  text_color: "#3c4858"
+  text_color: "#333"
   text_color_dark: "#c4c6c9"
 
   # 全局次级字体色（摘要、简介等位置）
@@ -156,7 +156,7 @@ color:
 
   # 文章正文字体色
   # Color of post text
-  post_text_color: "#666"
+  post_text_color: "#222"
   post_text_color_dark: "#c4c6c9"
 
   # 文章正文字体色（h1 h2 h3...）
@@ -188,7 +188,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family: Microsoft YaHei, PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, 微软雅黑, STHeitiSC-Light, simsun, 宋体, WenQuanYi Zen Hei, WenQuanYi Micro Hei, sans-serif
+  font_family: Segoe UI, Microsoft YaHei, PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, 微软雅黑, STHeitiSC-Light, simsun, 宋体, WenQuanYi Zen Hei, WenQuanYi Micro Hei, sans-serif
   code_font_size: 85%
 
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
@@ -434,7 +434,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "欢迎"
+    text: "假如生活还没能改变你，那你已经失败了。"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -487,7 +487,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://img.imgdb.cn/item/6044dd89cef1ec5e6fe2d252.jpg
+  banner_img: https://img.imgdb.cn/item/606c2f3e8322e6675cadfb04.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -758,8 +758,8 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-6qzgdw%20(1).jpg
-  banner_img_height: 60
+  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39b8.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
 
@@ -770,8 +770,8 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@v1.8/banner/wallhaven-g78rle%20(1).jpg
-  banner_img_height: 60
+  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf399a.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
 
@@ -795,7 +795,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://img.imgdb.cn/item/6044dd89cef1ec5e6fe2d243.jpg
+  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39ab.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -813,8 +813,8 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://img.imgdb.cn/item/6044dd89cef1ec5e6fe2d262.jpg
-  banner_img_height: 60
+  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39a0.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
   avatar: /img/avatar.png
@@ -862,7 +862,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://img.imgdb.cn/item/6044dcfacef1ec5e6fe28dca.jpg
+  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf3996.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
