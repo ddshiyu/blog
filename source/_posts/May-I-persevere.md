@@ -1,6 +1,8 @@
 ---
 title: May I persevere
 date: 2021-04-07 00:03:37
+categories:
+- 杂谈
 tags: 心情
 ---
 <div>从此开始</div>

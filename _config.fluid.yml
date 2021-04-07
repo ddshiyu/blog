@@ -487,7 +487,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://img.imgdb.cn/item/606c2f3e8322e6675cadfb04.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-0qy11r%20(1).jpeg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -758,7 +758,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39b8.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-xlk9wv%20(1).jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -770,7 +770,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf399a.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-qd6k97%20(1).jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -795,7 +795,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39ab.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-ymwdw7%20(1).jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -813,7 +813,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf39a0.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-4v9l8m%20(1).jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
@@ -862,7 +862,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://img.imgdb.cn/item/606c30818322e6675caf3996.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/ddshiyu/zredImage@cndV2.2/banner/wallhaven-j5q6jw%20(1).jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
